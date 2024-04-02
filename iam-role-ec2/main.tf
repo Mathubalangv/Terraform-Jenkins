@@ -58,7 +58,7 @@ resource "aws_iam_instance_profile" "ec2_s3_instance_profile_1" {
 ### Create EC2 instance and attach IAM role
 resource "aws_instance" "ec2_instance_with_role" {
   instance_type        = "t2.medium"
-  ami                  = "ami-009e46eef82e25fef"
+  ami                  = "ami-05295b6e6c790593e"
   tags = {
     Name = "instance_with_role"
   }
